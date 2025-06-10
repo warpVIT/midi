@@ -1,4 +1,18 @@
-# Midi QOL - Challenge Mode Armor Display
+# Version 1.0.4 - v11 Support and Forward
+- Removed Max Version from package manifest
+- Updated Verified for v11
+
+# Version 1.0.3 - v10 Support
+- Updated Module to avoid warnings when used in Version 10 of Foundry
+
+# Version 1.0.2 - Patched Render Call
+- Fixed render hook to update UI if actor sheet is update such as adding an item.
+
+# Version 1.0.1 - Fixed Manifest
+- Fixed Manifest Fields pointing to Module Management+ URLS.
+- Removed `socket: true` from Manifest as its not needed for this module.
+
+# Version 1.0.0 - Initial Release
 This module allows you to see the Armor Class, Evasion Class and Armor Resistance on the actor sheet when using Midi QOL Optional Setting `Challenge Mode Armor`.
 
 ![image](https://user-images.githubusercontent.com/564874/152419970-d9bc3e5e-a7af-46fc-b2d0-fb22faf0fe28.png)
